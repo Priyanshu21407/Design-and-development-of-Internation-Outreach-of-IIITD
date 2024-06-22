@@ -44,7 +44,7 @@ export const HomeDropDown = ({ isOpen }) => {
 
 
 
-export const  InternationalAdmissionDropdown = ({ isOpen }) => {
+export const  InternationalAdmissionDropdown = ({isOpen}) => {
     return (
       isOpen && (
         <div
@@ -53,9 +53,20 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
           aria-orientation="vertical"
           aria-labelledby="options-menu"
         >
-          <div className="py-1" role="none">
-                <NavLink to="/application-process">
+          <div
+          
+          className="py-1" role="none">
+            <NavLink to="/Apply">
                 <a
+                  href="#"
+                  className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600" 
+                  role="menuitem"
+                >
+                  Apply
+                </a>
+            </NavLink>
+                <NavLink to="/application-process">
+                <a 
                 href="#"
                 className="block px-4 font-thin py-2 text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600 border-b-2 border-cyan-600"
                 role="menuitem"

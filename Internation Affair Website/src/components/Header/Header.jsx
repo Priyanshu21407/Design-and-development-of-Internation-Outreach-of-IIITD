@@ -1,5 +1,6 @@
 import React from "react"
 import { GrClose } from "react-icons/gr";
+import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import {Contact,HomeDropDown,InternationalAdmissionDropdown,ScholarshipDropdown,VisaAndImmigrationDropdown,StudentsDropdown,PartnersDropdown,CampusDropdown } from "./Dropdown";
 import Search from "./Search";
@@ -35,7 +36,8 @@ function Header() {
         <a href="#"  onMouseEnter={() => setintOpen(true)} onMouseLeave={() => setintOpen(false)} className="h-6 border-r-2
         py-1 border-cyan-500  font-normal hover:text-cyan-500  text-xs relative z-10 bg-gray-white  px-2  transition-all duration-300" >
           International Admission
-          <InternationalAdmissionDropdown isOpen={intOpen}/>
+          <InternationalAdmissionDropdown isOpen={intOpen}
+          />
         </a>
         <a href="#"  onMouseEnter={() => setschOpen(true)} onMouseLeave={() => setschOpen(false)} className="h-6 border-r-2
         py-1 border-cyan-500 font-normal hover:text-cyan-500  text-xs relative z-10 bg-gray-white  px-2  transition-all duration-300" >
