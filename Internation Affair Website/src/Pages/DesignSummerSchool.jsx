@@ -1,6 +1,6 @@
 //priyanshu
 import React from "react";
-import './DesignSummerSchool.css'
+import '../styles/DesignSummerSchool.css'
 import linkedinIcon from '../assets/linkedin.png'
 import instagramIcon from '../assets/instagram.png'
 import facebookIcon from '../assets/facebook.png'
