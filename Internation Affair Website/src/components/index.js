@@ -12,7 +12,11 @@ import OutgoingSemExc from "../Pages/OutgoingSemExc";
 import VlsiSummerSchool from "../Pages/VlsiSummerSchool";
 import VisaAndImmigration from "../Pages/VisaAndImmigration";
 import Partners from "../Pages/Partners";
+import SemesterExc from "../Pages/SemesterExchange";
+import WinterProgram from "../Pages/WinterProgram";
+import FacultyDevelopment from "../Pages/FacultyDevelopment";
 import Layout from "./Layout";
+
 
 
 export {
@@ -30,6 +34,9 @@ export {
     VlsiSummerSchool,
     VisaAndImmigration,
     Partners,
+    SemesterExc,
+    WinterProgram,
+    FacultyDevelopment,
     Layout,
 }
 

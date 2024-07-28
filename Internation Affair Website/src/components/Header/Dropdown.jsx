@@ -244,13 +244,13 @@ export const  InternationalAdmissionDropdown = ({isOpen}) => {
             </a>
             </NavLink>
 
-            <NavLink to="/summer-exchange">
+            <NavLink to="/SemesterExchange">
             <a
               href="#"
               className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600 border-cyan-600"
               role="menuitem"
             >
-              Summer Exchange 
+              Semester Exchange 
             </a>
             </NavLink>
             
@@ -264,7 +264,7 @@ export const  InternationalAdmissionDropdown = ({isOpen}) => {
             </a>
             </NavLink>
             
-            <NavLink to="/winter-program">
+            <NavLink to="/WinterProgram">
             <a
               href="#"
               className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
@@ -274,7 +274,7 @@ export const  InternationalAdmissionDropdown = ({isOpen}) => {
             </a>
             </NavLink>
             
-            <NavLink to="/faculty-development">
+            <NavLink to="/FacultyDevelopment">
             <a
               href="#"
               className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  "

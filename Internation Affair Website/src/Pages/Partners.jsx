@@ -36,7 +36,7 @@ function Partners() {
                     <h1>
                         Our Partners
                     </h1>
-                    <hr></hr>
+                    {/* <hr></hr> */}
                     <p >Sample Introduction</p>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
-import { Application, ApplicationPortal, DesignSummerSchool, Layout, OutgoingSemExc, Partners, VisaAndImmigration } from './components/index.js'
+import { Application, ApplicationPortal, DesignSummerSchool, FacultyDevelopment, IncomingSemExc, JointDegreeProgramme, Layout, OutgoingSemExc, Partners, SemesterExc, VisaAndImmigration, WinterProgram } from './components/index.js'
 import Home from './Pages/Home.jsx'
 
 
@@ -17,6 +17,13 @@ const router=createBrowserRouter(
       <Route path='/VisaAndImmigration' element={<VisaAndImmigration />} />
       <Route path='/OutgoingSemExchange' element={<OutgoingSemExc/>} />
       <Route path='/Partners' element={<Partners/>} />
+      <Route path='/joint-program' element={<JointDegreeProgramme/>} />
+      <Route path='/SemesterExchange' element={<SemesterExc/>} />
+      <Route path='/IncomingSemExc' element={<IncomingSemExc/>} />
+      <Route path='/OutgoingSemExc' element={<OutgoingSemExc/>} />
+      <Route path='/WinterProgram' element={<WinterProgram/>} />
+      <Route path='/FacultyDevelopment' element={<FacultyDevelopment/>} />
+
     </Route>
   )
 )

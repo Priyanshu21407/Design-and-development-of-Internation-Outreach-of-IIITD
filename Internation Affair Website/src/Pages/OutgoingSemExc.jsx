@@ -88,9 +88,9 @@ const styles = {
         position: 'relative',
         padding: '40px',
         color: '#fff',
-        backgroundImage: 'url("https://via.placeholder.com/1200x600")', // Replace with your image URL
+        backgroundImage: 'url("https://pbs.twimg.com/media/FM_3xQAVEAIy1A0.jpg")', // Replace with your image URL
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundPosition: 'center -100px',
         backgroundRepeat: 'no-repeat',
         borderRadius: '10px',
         marginBottom: '20px',
@@ -106,12 +106,19 @@ const styles = {
     header: {
         marginTop: '100px',
         fontSize: '2.5rem',
+        padding: '0.5em 1em',
         textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+        color: 'black',
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        borderRadius: '5px'
     },
     description: {
         fontSize: '1.25rem',
         marginTop: '10px',
         textShadow: '1px 1px 3px rgba(0, 0, 0, 0.5)',
+        color: 'black',
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        borderRadius: '5px'
     },
     instituteSection: {
         backgroundColor: '#fff',

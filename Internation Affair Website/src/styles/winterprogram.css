@@ -1,0 +1,74 @@
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 10% 10%;
+}
+
+.section-intro {
+  background-image: url('../assets/winterprogramimg.jpg'); /* Add your background image */
+  background-size: cover;
+  background-position: center -100px; /* Adjust vertical position to crop top and bottom */
+  height: 20rem;
+  margin-top: -2rem; /* Increase top margin */
+  color: white; /* Make text color white */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.section-intro h1, .section-intro p {
+  color: rgb(0, 0, 0); /* Ensure text color is white */
+  margin-top: 0; /* Reset margin */
+  padding: 0.5em 1em; /* Add some padding */
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent background for better readability */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 5em;
+  margin-bottom: 2em;
+  margin-top: 1rem;
+  transition: transform 0.3s;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  font-size: 2em;
+  color: #343a40;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.2em;
+  color: #6c757d;
+  margin-bottom: 1em;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

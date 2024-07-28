@@ -1,0 +1,95 @@
+body {
+    /* font-family: 'Arial, sans-serif'; */
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 10% 10%;
+  }
+  
+  .main-title {
+    background-image: url('../assets/iiitd-image4.jpeg'); /* Add your background image */
+    background-size: cover;
+    background-position: center -170px; /* Adjust vertical position to crop top and bottom */
+    height: 20rem;
+    margin-top: -2rem; /* Increase top margin */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 2.5em;
+
+   
+  }
+
+  .main-title .heading {
+    margin-top: 2rem;
+    font-size:larger;
+    padding: 10px;
+    color: #343a40;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent background for better readability */
+    margin-bottom: 1em;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+
+  .section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    margin-bottom: 2em;
+    transition: transform 0.3s;
+  }
+  
+  .section:hover {
+    transform: translateY(-5px);
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #343a40;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 0.5em;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #6c757d;
+    margin-bottom: 1em;
+  }
+  
+  .list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #495057;
+  }
+  
+  .list li {
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+  }
+  
+  .resource {
+    cursor: pointer;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .resource:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-3px);
+  }
+  

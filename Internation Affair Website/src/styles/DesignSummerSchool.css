@@ -1,28 +1,38 @@
+body {
+    font-family: 'Arial, sans-serif';
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
 
-.container-1 {
-    height: auto;
+.page-container {
     width: 100%;
-    background-image: url('https://iiitd.ac.in/gallery/assets/img/Institute/institute18-3.jpg');
-    background-size: cover;
+    padding-top: 7%;
+}
+
+.containerr-1 {
+    width: 100%;
+    background-image: url('../assets/iiitd-image1.jpg');
+    background-size:cover;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: white; /* Text color, adjust as needed */
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding: 10% 0;
     transition: background 0.5s ease-in-out;
 }
 
 .content-1 {
-    width: auto;
-    height: inherit;
+    max-width: 100%;
+    width: inherit;
 }
 
 .head-1 {
     padding: 20px;
-    margin-right: 50rem;
+    margin-bottom: 20px;
     font-size: 35px;
     background-color: rgba(240, 248, 255, 0.9);
     border-radius: 25px;
@@ -37,74 +47,83 @@
 }
 
 .button-1 {
-    width: 20%;
-    margin-left: 50rem;
-    padding: 10px;
-    background: white;
-    border: 2px solid black;
-    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    color: black;
+    margin-bottom: 20px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .button-1:hover {
     background: rgba(255, 255, 255, 0.8);
+    color: black;
     transform: scale(1.05);
 }
 
 .p-1 {
-    margin-left: 50rem;
+    margin-bottom: 20px;
+    background-color: rgba(240, 248, 255, 1);
+    border-radius: 5px;
+    padding: 1%;
 }
 
 .container-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    color: rgb(0, 0, 0); /* Text color, adjust as needed */
-    text-align: center;
-    background-color: rgb(147, 253, 253);
-    transition: background-color 0.5s ease-in-out;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.design-elements {
+    width: 50%;
+    margin-right: 20px;
 }
 
 .content-2 {
-    font-size: 95px;
-    font-weight: 500;
-    margin-top: 10%;
-    opacity: 0;
-    animation: fadeIn 1s forwards;
+    font-size: 36px;
 }
 
-.container-3 {
-    background-color: aqua;
-    font-size: 50px;
-    font-weight: 500;
-    text-align: left;
-    padding: 20px;
-    transition: background-color 0.5s ease-in-out;
+.containerr-3 {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.containerr-3 h2 {
+    font-size: 36px;
 }
 
 .content-3 {
-    font-size: 20px;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.about {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 .contact-us {
-    font-weight: 500;
+    width: 35%;
     text-align: right;
-    margin-right: 20%;
 }
 
 .icons {
+    margin-right: 5rem;
     display: flex;
-    justify-content: space-between;
-    margin-top: 10%;
-    margin-left: 45%;
+    justify-content: flex-end;
+    gap: 5%;
 }
 
 .icon_link {
+    width: 30px;
+    height: 30px;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
@@ -114,41 +133,29 @@
 }
 
 .container-4 {
-    background-color: white;
-    padding-bottom: 10px;
-    width: 100%;
-    height: 100%;
-    font-size: 95px;
-    font-weight: 500;
-    font-style: italic;
-    text-align: left;
-    padding-left: 10px;
-    padding-bottom: 50px;
-    color: rgb(0, 0, 0);
-    transition: background-color 0.5s ease-in-out;
+    padding: 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.container-4 h2 {
+    font-size: 36px;
 }
 
 .content-4 {
-    width: 100%;
-    height: 100%;
-    font-size: 30px;
-    font-weight: 200;
-    font-style: italic;
-    text-align: left;
-    padding-left: 10px;
-    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-size: 18px;
 }
 
 .button-2 {
-    width: 20%;
+    padding: 10px 20px;
     font-size: 16px;
-    margin-left: 60rem;
-    padding: 10px;
-    background: white;
-    border: 2px solid black;
-    border-radius: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    color: black;
+    margin-top: 20px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -158,26 +165,22 @@
 }
 
 .container-5 {
-    background-color: aqua;
-    font-size: 50px;
-    font-weight: 500;
-    text-align: left;
-    padding: 10px;
-    transition: background-color 0.5s ease-in-out;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.container-5 h2 {
+    font-size: 36px;
 }
 
 .content-5 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    size: 10%;
-    padding: 10px;
-    opacity: 0;
-    animation: fadeIn 1s forwards 0.5s;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
-/* Keyframes for animations */
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
+.partner-logo {
+    width: 150px;
 }
