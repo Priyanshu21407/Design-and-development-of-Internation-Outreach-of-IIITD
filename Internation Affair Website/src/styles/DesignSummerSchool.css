@@ -101,6 +101,10 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    text-align: left;
+    background-color:#f8f9fa;
+    border-radius: 25px;
+    padding: 5%;
 }
 
 .about {

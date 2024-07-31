@@ -5,6 +5,7 @@ import { Route, Link, Routes, useLocation, Navigate, NavLink } from 'react-route
 import { Contact, HomeDropDown, InternationalAdmissionDropdown, ScholarshipDropdown, VisaAndImmigrationDropdown, StudentsDropdown, PartnersDropdown, CampusDropdown } from "./Dropdown";
 import Search from "./Search";
 import Chatbot from "../ChatBot";
+import HeaderTitles from "./HeaderTitle";
 import '../../styles/header.css'
 
 
@@ -20,6 +21,10 @@ function Header() {
     const [contactOpen, setContactOpen] = useState(false);
     const location = useLocation();
     const {pathname} = location;
+    const title = HeaderTitles[pathname] || '';
+
+    console.log("pathname-> ",pathname);
+    console.log("title-> ",title);
 
 
 
@@ -36,7 +41,7 @@ function Header() {
             className="logo"
             alt="IIITD Logo"
         />
-        <span className="page-title">{pathname.slice(1, pathname.length)}</span>
+        <span className="page-title">{title}</span>
     </div>
     <div className="nav-wrapper">
         <nav className={`nav ${showMenu ? 'nav-show' : ''}`}>

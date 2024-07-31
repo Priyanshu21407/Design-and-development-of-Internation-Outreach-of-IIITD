@@ -18,7 +18,7 @@ import '../styles/jointdegree.css'
           <div className="container">
           <div className="sectionn-intro">
             <h1 className="title">Joint Degree Program</h1>
-            <p className="intro">Introduction</p>
+            {/* <p className="intro">Explore unique opportunities to earn dual qualifications</p> */}
           </div>
           <div className="section">
             <h1 className="title">Dual-Degree Programs</h1>

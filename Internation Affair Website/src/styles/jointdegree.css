@@ -23,6 +23,11 @@ body {
   border-radius: 10px;
 }
 
+.sectionn-intro .intro {
+  
+  color: black;
+}
+
 .section {
   margin-bottom: 2em;
 }

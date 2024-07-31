@@ -8,7 +8,7 @@ function SemesterExc()
         <div className="container">
         <div className="section-introo">
           <h1 className="title">Semester Exchange Programs</h1>
-          <p className="intro">Introduction</p>
+          {/* <p className="intro">Discover opportunities to study abroad and immerse yourself in new cultures</p> */}
         </div>
   
         <div className="section">

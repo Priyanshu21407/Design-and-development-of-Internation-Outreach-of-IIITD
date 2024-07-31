@@ -9,7 +9,6 @@ function WinterProgram () {
         <div class="container">
             <div class="section-intro">
                 <h1>Winter Programs at IIIT-D</h1>
-                <p>Introduction</p>
             </div>
             <div class="section">
                 <h1>Incoming Winter Programs</h1>

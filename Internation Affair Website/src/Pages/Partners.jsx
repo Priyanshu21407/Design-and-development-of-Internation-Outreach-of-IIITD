@@ -36,8 +36,13 @@ function Partners() {
                     <h1>
                         Our Partners
                     </h1>
-                    {/* <hr></hr> */}
-                    <p >Sample Introduction</p>
+                    <p>
+                        <ul>
+                            <li>Innovation.</li>
+                            <li>Knowledge.</li>
+                            <li>Opportunities.</li>
+                        </ul>
+                    </p>
                 </div>
             </div>
             <div class = "container-2">
